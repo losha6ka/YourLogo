@@ -1,0 +1,623 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Your Logo</title>
+	<!-- Адаптив -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="SCSS/style.css">
+	<link rel="shortcut icon" href="./img/icons/logosite.png" type="image/x-icon">
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!--Swiper-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__cotainer">
+				<div class="header__social">
+					<ul class="social__items soc">
+						<li><a target="_blank" href="https://www.facebook.com/" class="social__link"><img
+									src="./img/icons-social/facebook.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/" class="social__link"><img
+									src="./img/icons-social/instagram.png" alt=""></a></li>
+						<li><a target="_blank" href="https://twitter.com/" class="social__link"><img
+									src="./img/icons-social/twitter.png" alt=""></a></li>
+						<li><a target="_blank" href="https://linkedin.com/" class="social__link"><img
+									src="./img/icons-social/linkedin.png" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="header__contact"><a href=""><img src="./img/icons-social/followus.png" alt=""></a></div>
+				<div class="header__logo">
+					<a href="">
+						<div class="logo"><img src="./img/logo/logo.png" alt=""></div>
+					</a>
+				</div>
+				<div class="header__phone"><a href=""><img src="./img/icons-social/phone.png" alt=""></a></div>
+				<div class="header__button">
+					<button class="border-button">Contáctenos <span><img src="./img/icons/arrow.png"
+								alt=""></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="main-banner">
+				<div class="bg__text">LOREN IPSUM</div>
+				<div class="banner__container">
+					<div class="banner__body">
+						<h2 class="banner__title">BANNER <br> DEL PRODUCTO</h2>
+						<p class="banner__text">Descri pción del producto, lorem ipsum dolor sit amet,
+							consetetur sadipscing elitr, sed diam nonumy.</p>
+						<div class="banner__button ex-button"><button>CALL TO ACTION <span><img
+										src="./img/icons/secarrow.png" alt=""></span></button></div>
+					</div>
+					<div class="banner__img-items">
+						<div class="banner__item1">
+							<span class="banner__text1-1">L o r <br> e n i <br>
+								<span class="green">p s u</span></span>
+							<div class="banner__img1"><img src="./img/items/girls.png" alt=""></div>
+							<span class="banner__text1-2">L <span class="green">o</span> <br>
+								r <span class="green">e</span></span>
+						</div>
+						<div class="banner__item2">
+							<div class="banner__img2"><a href="https://wikipedia.org/wiki/%D0%A5%D1%83%D0%B4%D0%B8"
+									target="_blank"><img src="./img/items/product-girl.png" alt=""></a>
+							</div>
+							<span class="banner__text2-1">2 <span class="green num">3</span> 1 <span
+									class="green num">9</span></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-contenido">
+				<div class="contenido__container">
+					<div class="contenido__product">
+						<div class="contenido__video">
+							<div class="contenido__video">
+								<video id="myvideo" loop poster="./img/bg/video.PNG" preload="metadata">
+									<source src="./video/Ð_Ð³Ð½Ð¸ - 32299.mp4">
+								</video>
+							</div>
+							<div id="controls">
+								<span id="playpause" class="paused"><img src="./img/icons/playicon.png" alt=""></span>
+							</div>
+						</div>
+					</div>
+					<div class="contenido__body">
+						<h2 class="contenido__title">TÍTULO DEL <br> CONTENIDO</h2>
+						<h2 class="contenido__subtitle">Subtítulo del contenido</h2>
+						<div class="contenido__text">
+							<p>Breve párrafo del contenido, lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+								diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+								voluptua. At vero eos et accusam dolores.</p>
+							<div class="contenido__button ex-button"><button>CALL TO ACTION <span><img
+											src="./img/icons/secarrow.png" alt=""></span></button></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-swiper">
+				<div class="swiper__container">
+					<!-- Slider main container -->
+					<div class="swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="coffe" src="./img/swiper/coffe.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="ballon" src="./img/swiper/ballon.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide-body">
+									<div class="slide-id"><span>R e f <span class="green">2
+												3 0</span></span></div><img class="bottle" src="./img/swiper/bottle.png"
+										alt="">
+								</div>
+								<div class="slide-title">NOMBRE DEL PRODUCTO
+									SELECCIONADO</div>
+								<div class="slide-cost">$99.999
+								</div>
+								<div class="slide-text">Descripción del producto, lorem
+									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+									invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+									et.</div>
+								<div class="slide-button ex-button"><button>SOLICITAR INFO <span><img
+												src="./img/icons/secarrow.png" alt=""></span></button></div>
+							</div>
+						</div>
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+						<!-- If we need navigation buttons -->
+					</div>
+					<div class="swiper-navigation">
+						<div class="swiper-button-prev"><button><img src="./img/icons/arrow.png" alt=""></button></div>
+						<div class="swiper-button-next"><button><img src="./img/icons/arrow.png" alt=""></button></div>
+					</div>
+				</div>
+			</section>
+			<section class="main-producto">
+				<div class="producto__container">
+					<div class="producto__item">
+						<span class="producto__text-item">L o r <br>
+							<span class="green">e n i</span></span>
+						<div class="producto__product"><a href=""><img src="./img/items/product-shoe.png" alt=""></a>
+						</div>
+						<span class="producto__num">2 <span class="green">0</span> 3</span>
+					</div>
+					<div class="producto__body">
+						<div class="producto__title">COPY DEL <span class="green">PRODUCTO</span></div>
+						<div class="producto__text"><span class="dop-reverse">”</span> Frase sobre el producto, lorem
+							ipsum <br>
+							dolor sit amet,consetetur sadipscin <br>
+							elitr, sed diam nonumy.<span class="dop-reverse">”</span></div>
+						<div class="producto__button"><a href="">Ver más info <span><img
+										src="./img/icons/arrowgreen.png" alt=""></span></a></div>
+					</div>
+				</div>
+			</section>
+			<section class="main-forma">
+				<div class="forma__container">
+					<h2 class="forma__title">¿QUIÉRES MÁS <span class="green">INFORMACIÓN?</span></h2>
+					<form class="forma" action="">
+						<div class="forma__body">
+							<input type="text" placeholder="Nombre*">
+							<input type="text" placeholder="Correoelectró*">
+							<input type="text" placeholder="Celular*">
+							<select aria-placeholder="Ciudad*">
+								<option class="option-place">Ciudad*</option>
+								<option>Dasty</option>
+								<option>Frame</option>
+								<option>Gystuy</option>
+							</select>
+							<input type="text" placeholder="Elige un producto*">
+							<input type="text" placeholder="Dirección">
+							<textarea placeholder="Escribe tu mensaje..." name="" id="" cols="30" rows="10"></textarea>
+						</div>
+						<div class="forma__acepto"><input type="checkbox">
+							<p>Acepto <span><a href="">Términos y Condiciones</a></span></p>
+						</div>
+						<div class="forma__button ex-button"><button type="submit">SOLICITAR INFO<span><img
+										src="./img/icons/secarrow.png" alt=""></span></button></div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__trought"></div>
+			<div class="footer__next">
+				<div class="footer__button"><a href="">
+						Suscríbete al Newsletter
+					</a>
+				</div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__social">
+					<h2>Síguenos:</h2>
+					<ul class="footer__link">
+						<li><a target="_blank" href="https://www.facebook.com/" class="footer__link"><img
+									src="./img/icons-social/facebook.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/" class="footer__link"><img
+									src="./img/icons-social//instagram.png" alt=""></a></li>
+						<li><a target="_blank" href="https://twitter.com/" class="footer__link"><img
+									src="./img/icons-social//twitter.png" alt=""></a></li>
+						<li><a target="_blank" href="https://linkedin.com/" class="footer__link"><img
+									src="./img/icons-social//linkedin.png" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="footer__contact">
+					<h2>Datos de contacto:</h2>
+					<ul class="footer__contacts">
+						<li>Mail: <a href="">contact@nombredelamarca.com</a></li>
+						<li>Teléfono: <span>(+57) 300 789 34 56</span></li>
+					</ul>
+				</div>
+				<div class="footer__maps">
+					<h2>Dirección:</h2>
+					<ul class="footer__cordinats">
+						<li>Bogotá: <a href="">Calle 12 34 - 56</a></li>
+						<div class="cordinats">
+							<div class="map"><span><img src="./img/icons/icon_google_maps.png" alt=""></span> Ir con
+								Maps</div>
+							<div class="waze"><span><img src="./img/icons/icon_waze.png" alt=""></span> Ir con Waze
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__footer">
+				<div class="footer__trought"></div>
+				<div class="footer__body">
+					<div class="footer__terminos">Términos y Condiciones</div>
+					<div class="footer__copyrite">Nombre de la marca © 2020 - Todos los derechos reservados</div>
+					<div class="footer__bh"><span><img src="./img/icons/behance_icon.png" alt=""></span>
+						behance.net/ndavidsan</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="./JS/script.js"></script>
+
+</html>
